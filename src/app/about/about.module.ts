@@ -7,6 +7,5 @@ import { AboutHomeComponent } from './about-home/about-home.component';
 @NgModule({
   declarations: [AboutHomeComponent],
   imports: [CommonModule, AboutRoutingModule],
-  exports: [AboutHomeComponent],
 })
 export class AboutModule {}

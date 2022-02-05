@@ -7,6 +7,5 @@ import { PricingHomeComponent } from './pricing-home/pricing-home.component';
 @NgModule({
   declarations: [PricingHomeComponent],
   imports: [CommonModule, PricingRoutingModule],
-  exports: [PricingHomeComponent],
 })
 export class PricingModule {}
