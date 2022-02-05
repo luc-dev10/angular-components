@@ -8,9 +8,10 @@ import { ServicesModule } from './services/services.module';
 import { ReviewsModule } from './reviews/reviews.module';
 import { PricingModule } from './pricing/pricing.module';
 import { AboutModule } from './about/about.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

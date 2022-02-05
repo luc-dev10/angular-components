@@ -4,7 +4,7 @@ import { TypoHomeComponent } from './typo-home/typo-home.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: TypoHomeComponent,
   },
 ];
