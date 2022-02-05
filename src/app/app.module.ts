@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TypoModule } from './typo/typo.module';
 import { ServicesModule } from './services/services.module';
 import { ReviewsModule } from './reviews/reviews.module';
+import { PricingModule } from './pricing/pricing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { ReviewsModule } from './reviews/reviews.module';
     TypoModule,
     ServicesModule,
     ReviewsModule,
+    PricingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
