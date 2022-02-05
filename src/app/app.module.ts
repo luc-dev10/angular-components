@@ -7,6 +7,7 @@ import { TypoModule } from './typo/typo.module';
 import { ServicesModule } from './services/services.module';
 import { ReviewsModule } from './reviews/reviews.module';
 import { PricingModule } from './pricing/pricing.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { PricingModule } from './pricing/pricing.module';
     ServicesModule,
     ReviewsModule,
     PricingModule,
+    AboutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
