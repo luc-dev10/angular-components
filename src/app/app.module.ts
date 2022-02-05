@@ -5,10 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TypoModule } from './typo/typo.module';
 import { ServicesModule } from './services/services.module';
+import { ReviewsModule } from './reviews/reviews.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, TypoModule, ServicesModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    TypoModule,
+    ServicesModule,
+    ReviewsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
