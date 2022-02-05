@@ -9,6 +9,7 @@ import { ReviewsModule } from './reviews/reviews.module';
 import { PricingModule } from './pricing/pricing.module';
 import { AboutModule } from './about/about.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NotFoundModule } from './not-found/not-found.module';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent],
@@ -20,6 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     ReviewsModule,
     PricingModule,
     AboutModule,
+    NotFoundModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
