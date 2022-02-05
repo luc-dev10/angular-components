@@ -7,6 +7,5 @@ import { ReviewsHomeComponent } from './reviews-home/reviews-home.component';
 @NgModule({
   declarations: [ReviewsHomeComponent],
   imports: [CommonModule, ReviewsRoutingModule],
-  exports: [ReviewsHomeComponent],
 })
 export class ReviewsModule {}
