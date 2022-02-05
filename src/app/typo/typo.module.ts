@@ -7,6 +7,5 @@ import { TypoHomeComponent } from './typo-home/typo-home.component';
 @NgModule({
   imports: [CommonModule, TypoRoutingModule],
   declarations: [TypoHomeComponent],
-  exports: [TypoHomeComponent],
 })
 export class TypoModule {}
