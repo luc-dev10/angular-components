@@ -4,7 +4,7 @@ import { ReviewsHomeComponent } from './reviews-home/reviews-home.component';
 
 const routes: Routes = [
   {
-    path: 'reviews',
+    path: '',
     component: ReviewsHomeComponent,
   },
 ];

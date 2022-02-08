@@ -4,7 +4,7 @@ import { PricingHomeComponent } from './pricing-home/pricing-home.component';
 
 const routes: Routes = [
   {
-    path: 'pricing',
+    path: '',
     component: PricingHomeComponent,
   },
 ];
