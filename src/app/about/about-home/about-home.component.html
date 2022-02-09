@@ -1,1 +1,17 @@
 <p>about-home works!</p>
+
+<a
+  class="d-block"
+  routerLink="./"
+  routerLinkActive="text-danger"
+  [routerLinkActiveOptions]="{ exact: true }"
+  >Bio</a
+>
+<a class="d-block" routerLink="companies" routerLinkActive="text-danger"
+  >companies</a
+>
+<a class="d-block" routerLink="partners" routerLinkActive="text-danger"
+  >partners</a
+>
+
+<router-outlet></router-outlet>
