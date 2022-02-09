@@ -3,13 +3,43 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-reviews-home',
   templateUrl: './reviews-home.component.html',
-  styleUrls: ['./reviews-home.component.css']
+  styleUrls: ['./reviews-home.component.css'],
 })
 export class ReviewsHomeComponent implements OnInit {
+  data = [
+    {
+      name: 'joe',
+      age: 24,
+      job: 'strugling artist',
+    },
+    {
+      name: 'jane',
+      age: 27,
+      job: 'engineer',
+    },
+    {
+      name: 'mary',
+      age: 20,
+      job: 'student',
+    },
+  ];
 
-  constructor() { }
+  header = [
+    {
+      key: 'name',
+      label: 'name',
+    },
+    {
+      key: 'age',
+      label: 'age',
+    },
+    {
+      key: 'job',
+      label: 'job',
+    },
+  ];
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
 }
