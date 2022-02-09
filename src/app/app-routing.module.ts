@@ -4,6 +4,7 @@ import { TypoHomeComponent } from './typo-home/typo-home.component';
 import { NotFoundHomeComponent } from './not-found-home/not-found-home.component';
 
 const routes: Routes = [
+  { path: '', component: TypoHomeComponent },
   {
     path: 'services',
     loadChildren: () =>
@@ -24,7 +25,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./about/about.module').then((m) => m.AboutModule),
   },
-  { path: '', component: TypoHomeComponent },
   { path: '**', component: NotFoundHomeComponent },
 ];
 
