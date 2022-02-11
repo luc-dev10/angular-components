@@ -8,9 +8,10 @@ import { ReviewsModule } from './reviews/reviews.module';
 import { PricingModule } from './pricing/pricing.module';
 import { AboutModule } from './about/about.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SectionComponent } from './About/section/section.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, SectionComponent],
   imports: [
     BrowserModule,
     ServicesModule,
