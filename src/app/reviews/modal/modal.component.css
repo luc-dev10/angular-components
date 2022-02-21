@@ -1,0 +1,7 @@
+.show {
+  display: block !important;
+}
+
+.modal-backdrop {
+  height: 100%;
+}

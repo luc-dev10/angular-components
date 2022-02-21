@@ -1,3 +1,15 @@
 <p>reviews-home works!</p>
 
 <app-table [data]="data" [header]="header"> </app-table>
+
+<!-- Button trigger modal -->
+<button
+  type="button"
+  class="btn btn-primary"
+  data-toggle="modal"
+  data-target="#exampleModal"
+  (click)="onClick()"
+>
+  Launch demo modal
+</button>
+<app-modal *ngIf="isModalOn" (close)="onClick()"></app-modal>

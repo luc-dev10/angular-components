@@ -39,6 +39,11 @@ export class ReviewsHomeComponent implements OnInit {
     },
   ];
 
+  isModalOn: boolean = false;
+  onClick() {
+    this.isModalOn = !this.isModalOn;
+  }
+
   constructor() {}
 
   ngOnInit(): void {}
